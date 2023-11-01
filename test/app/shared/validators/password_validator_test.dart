@@ -36,7 +36,7 @@ void main() {
 
           expect(
             result,
-            equals('A senha deve possuir pelo menos 6 caractesres'),
+            equals('A senha deve possuir pelo menos 6 caracteres'),
           );
         },
       );

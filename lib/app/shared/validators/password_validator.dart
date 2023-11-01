@@ -5,7 +5,7 @@ class PasswordValidator {
     }
 
     if (password.length < 6) {
-      return 'A senha deve possuir pelo menos 6 caractesres';
+      return 'A senha deve possuir pelo menos 6 caracteres';
     }
 
     final alphanumeric = RegExp(r'^(?=.*[a-zA-Z])(?=.*[0-9]).+$');
